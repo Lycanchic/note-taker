@@ -12,13 +12,6 @@ if (window.location.pathname === '/notes') {
   noteList = document.querySelectorAll('.list-container .list-group');
 }
 
-var button = document.getElementById("get-started-button");
-
-// Add a click event listener to the button
-button.addEventListener("click", function() {
-  // Code to execute when the button is clicked
-});
-
 // Show an element
 const show = (elem) => {
   elem.style.display = 'inline';
