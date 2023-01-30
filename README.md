@@ -1,6 +1,10 @@
 # EXPRESS.JS: NOTE-TAKER
+
+<br>
+
 **Express.js: Note Taker** is a note taking app built using HTML, CSS, JS, MySQL, Handlebars.js, Sequelize, Json, insomnia, prettier, bootstrap, express and node.js.
 
+<br>
 
 ## User Story
 
@@ -10,6 +14,7 @@ I WANT to be able to write and save notes
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ```
 
+<br>
 
 ## Acceptance Criteria
 
@@ -29,18 +34,19 @@ WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
 
-## VIDEO WALK THROUGH OF THE APP:
-***
- [VIDEO WALK THROUGH LINK]
+<br>
 
-  ## FEATURES
+## FEATURES
   ***
   
   Features of the deployed application and repository are as follows:
 
-  
-  ## TECHNOLOGY USED
-  ***
+ * Writing notes, Saving the note and the option to delete the notes.
+
+ <br>
+   
+## TECHNOLOGY USED
+***
     HTML 
     CSS 
     JS 
@@ -53,14 +59,62 @@ THEN I am presented with empty fields to enter a new note title and the note’s
     Bootstrap
     insomnia
     prettier
+    dotenv
  
-  
+<br>  
 
 ## THE DEPLOYED REPO CAN BE FOUND AT THE FOLLOWING URL:
 ***
 
+<br>
 
-  ## INSTALLATION OF THE REPO FROM GITHUB
+
+<br>
+
+## IMAGES OF THE DEPLOYED APPLICATION
+***
+
+# The application's home page
+
+<br>
+
+![The Home Page](develop/public/assets/images/NoteTakerHome.png)
+
+<br>
+
+# Blank database, before adding notes
+
+<br>
+
+![Blank Page](develop/public/assets/images/NTBlank.png)
+
+<br>
+
+# Adding a note to the application
+
+<br>
+
+![Adding a Note](develop/public/assets/images/Adding%20a%20note%20to%20save.png)
+
+<br>
+
+# The Note saved
+
+<br>
+
+![The Saved Note](develop/public/assets/images/The%20saved%20note.png)
+
+<br>
+
+# Multiple Saved notes
+
+<br>
+
+![Multiple Saved Notes](develop/public/assets/images/MultipleSavedNotes.png)
+
+<br>
+
+## INSTALLATION OF THE REPO FROM GITHUB
   ***
   A copy of the repository can be cloned at [${response.GitHub}]. 
     * Simply click on the repo and select **Clone**. 
@@ -68,10 +122,14 @@ THEN I am presented with empty fields to enter a new note title and the note’s
     ```
     'git clone' + 'the repo link' + enter.
      
+<br>
 
   ## FUTURE ITERATIONS
   ***
   Allow the user to select "Dark Mode" to make it easier for those with sensitive eyes to use the app.
   
-  ## CREDITS
-  ***
+  <br>
+
+  ## License
+ - - -
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
