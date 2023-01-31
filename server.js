@@ -9,7 +9,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static("develop/public"));
+app.use(express.static("public"));
 
 // Routes
 const apiRoutes = require('./routes/apiRoutes');
@@ -17,7 +17,7 @@ const htmlRoutes = require('./routes/htmlRoutes');
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
-const dbPath = path.join(__dirname, 'develop/db/db.json');
+const dbPath = path.join(__dirname, '/db/db.json');
 
 // Get all notes
 app.route('/api/notes')
