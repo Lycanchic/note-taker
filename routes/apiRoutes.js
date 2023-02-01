@@ -27,14 +27,14 @@ router.post('/notes', (req, res) => {
         title: req.body.title,
     };
     db.push(newNote);
-    fs.writeFileSync(path.join(__dirname, "..db/db.json"), JSON.stringify(db)
+    fs.writeFileSync(path.join(__dirname, "../db/db.json"), JSON.stringify(db)
     ) 
     res.status(201).json(db);
 });
 
 // Delete a note
 router.delete('/notes/:id', (req, res) => {
-    let db = fs.readFileSync(path.join(__dirname, "..db/db.json"))
+    let db = fs.readFileSync(path.join(__dirname, "../db/db.json"))
     db = JSON.parse(db)
     // Find the index of the note to delete
     const noteIndex = db.findIndex(note => note.id === req.params.id);
