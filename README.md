@@ -65,20 +65,19 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## THE DEPLOYED REPO CAN BE FOUND AT THE FOLLOWING URL:
 ***
-
+[Link to the Heroku Deployed app](https://dashboard.heroku.com/apps/challenge-11note-taker)
 <br>
 
 
 <br>
 
-## IMAGES OF THE DEPLOYED APPLICATION
-***
 
-# The application's home page
+
+# The Application's Home Page
 
 <br>
 
-![The Home Page](develop/public/assets/images/NoteTakerHome.png)
+![The Home Page](public/assets/media/NoteTakerHome.png)
 
 <br>
 
@@ -86,7 +85,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 <br>
 
-![Blank Page](develop/public/assets/images/NTBlank.png)
+![lank Page](public/assets/media/NTBlank.png)
 
 <br>
 
@@ -94,7 +93,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 <br>
 
-![Adding a Note](develop/public/assets/images/Adding%20a%20note%20to%20save.png)
+![Adding a Note](public/assets/media/Adding%20a%20note%20to%20save.png)
 
 <br>
 
@@ -102,7 +101,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 <br>
 
-![The Saved Note](develop/public/assets/images/The%20saved%20note.png)
+![The Saved Note](public/assets/media/The%20saved%20note.png)
 
 <br>
 
@@ -110,16 +109,17 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 <br>
 
-![Multiple Saved Notes](develop/public/assets/images/MultipleSavedNotes.png)
+![Multiple Saved Notes](public/assets/media/MultipleSavedNotes.png)
 
 <br>
 
 ## INSTALLATION OF THE REPO FROM GITHUB
   ***
-  A copy of the repository can be cloned at [${response.GitHub}]. 
+  A copy of the repository can be cloned at [Click here](https://dashboard.heroku.com/apps/challenge-11note-taker). 
     * Simply click on the repo and select **Clone**. 
     * From the drop down menu select the copy icon. Type (directly into your terminal):
-    ```
+   
+    
     'git clone' + 'the repo link' + enter.
      
 <br>
